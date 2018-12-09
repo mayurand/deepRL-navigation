@@ -66,16 +66,26 @@ python -m ipykernel install --user --name p1_drlnd --display-name "p1_drlnd"
 
 2. Place the file in the deepRL-p1-navigation repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-### Execution
-1. To train an agent for the above environment, navigate to the p1_navigation/ directory:
+3. Test if the environment is correctly installed:
 ```bash
+cd deepRL-p1-navigation/p1_navigation #navigate to the p1_navigation directory
 source activate p1_drlnd  #Activate the python environment
 jupyter notebook
 ```
-2. Open the Navigation.ipynb and run the cells with SHIFT+ENTER.
+
+4. Open the `Test_the_environment.ipynb` and run the cells with SHIFT+ENTER. If the environment is correctly installed, you should get to see the Unity environment in another window and values for state and action spaces under `2. Examine the State and Action Spaces`. 
+
+### Train the agent or run a trained agent
+1. To train an agent for the above environment:
+```bash
+cd deepRL-p1-navigation/p1_navigation #navigate to the p1_navigation directory
+source activate p1_drlnd  #Activate the python environment
+jupyter notebook
+```
+2. Open the `Navigation.ipynb` and run the cells with SHIFT+ENTER. 
 
 3. To directly run the trained model, navigate to the `4. Watch a Smart Agent!` in the notebook and run the code.
 
-Note: Before running code in a notebook, change the kernel to match the `p1_drlnd` environment by using the drop-down `Kernel` menu. 
+__Note:__ Before running code in a notebook, change the kernel to match the `p1_drlnd` environment by using the drop-down `Kernel` menu. 
 
 
