@@ -1,4 +1,11 @@
-# Udacity Deep Reinforcement Nanodegree Project 1: Navigation
+# Udacity  Deep Reinforcement Nanodegree Projects
+In total three projects were implemented in the udacity deep reinforcement learning nanodegree. They are as follows:
+1. [Navigation:](https://github.com/mayurand/deepRL-p1-navigation) Trained an agent to navigate (and collect bananas!) in a large, square world. (This repo)
+2. [Continuous control:](https://github.com/mayurand/deepRL-p2-Continuous-Control) A double-jointed arm is trained to control its position for a moving target.
+3. [Collaboration and competition:](https://github.com/mayurand/deepRL-p3-Collaborate-and-Compete) Learn control of rackets to bounce ball over a net.
+
+
+### Udacity Deep Reinforcement Nanodegree Project 1: Navigation
 This repository contains implementation of Navigation project at Udacity's Deep Reinforcement Learning Nanodegree program.
 
 In this project an agent is trained to navigate (and collect bananas!) in a large, square world.
